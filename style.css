@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F1F2F4;
+}
+.container{
+    max-width: 1368px;
+}
+.a_nav{
+    /* padding: 0px 28px; */
+}
+a{
+    text-decoration: none;
+}
+/* header section  */
+header{
+    height: 70px;
+    background-color: #fff;
+}
+
+/* categories section  */
+.categories{
+    margin-top: 8px;
+    height: 128px ;
+    background-color: #fff;
+}
+.category{
+    max-width: 200px;
+    padding: 0;
+}
+.category-text{
+    color: #333;
+   
+    font-size: 16px;
+    font-weight: 600;
+}
+
+
+
+
+
+/* banner slider section  */
+.banner-slider{
+    height: 226px;
+    margin-top: 16px;
+    background-color: #fff;
+}
+/* products adds  */
+.products-adds{
+    height: 495px;
+    margin-top: 16px;
+    background-color: #fff;
+}
+/* products-slider  */
+.products-slider{
+    height: 350px;
+    background-color: #fff;
+    margin-top: 16px;
+}
+/* top selling products  */
+.top-selling{
+  height: 640px;
+  background: #fff;
+  margin-top: 16px;   
+}
+/* products-slider  */
+.products-slider-2{
+    height: 350px;
+    background-color: #fff;
+    margin-top: 16px;
+}
+/* recent views  */
+.recent-views{
+    height: 350px;
+    background-color: #fff;
+    margin-top: 16px;
+}
+
+/* information section   */
+.informaion-section{
+    height: 200px;
+    margin-top: 95px;
+    background-color: #fff;
+}
+/* footer section  */
+footer{
+    height: 360px;
+    background-color: #212121;
+    margin-top: 25px;
+}
