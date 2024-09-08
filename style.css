@@ -38,16 +38,56 @@ header{
     font-weight: 600;
 }
 
-
-
-
-
+/* banner slider  */
 /* banner slider section  */
 .banner-slider{
-    height: 226px;
+    height: 242px;
     margin-top: 16px;
     background-color: #fff;
 }
+.carousel-control-prev, .carousel-control-next{
+    width: 40px;
+    height: 90px;
+    height: 100px;
+    background-color: #ffffff;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+}
+.carousel-control-prev, .carousel-control-next:hover{
+    color: black;
+}
+
+
+.carousel-control-prev{
+    border-radius: 0 5px 5px 0;
+}
+.carousel-control-next{
+    border-radius: 5px 0 0 5px;
+}
+
+.carousel-indicators{
+    background: #0000008f;
+    width: 90px;
+    
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 3px 10px;
+    border-radius: 5px;
+} 
+.carousel-indicators button{
+    width: 5px!important;
+    height: 5px!important;
+    border-radius: 50%;
+    border: 0!important;
+    
+
+}
+
+
+
+
+
 /* products adds  */
 .products-adds{
     height: 495px;
