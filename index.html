@@ -33,7 +33,7 @@
   <body>
     <!-- header  section  -->
     <header class="fixed-top">
-      <nav class="navbar navbar-expand-lg navbar-light  h-100">
+      <nav class="navbar navbar-expand-lg navbar-light h-100">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="./images/flipkart-logo-2.svg" alt="" />
@@ -50,7 +50,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <form class="d-flex search-form rounded-3 mx-4 flex-grow-1 ">
+            <form class="d-flex search-form rounded-3 mx-4 flex-grow-1">
               <button class="btn" type="submit">
                 <i class="bi bi-search"></i>
               </button>
@@ -60,19 +60,25 @@
                 placeholder="Search for Products, Brands and More"
                 aria-label="Search"
               />
-             
             </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item me-4">
-                <a class="btn" href=""><i class="bi bi-person-circle"></i>  Login <i class="bi bi-chevron-down"></i> </a>
+                <a class="btn" href=""
+                  ><i class="bi bi-person-circle"></i> Login
+                  <i class="bi bi-chevron-down"></i>
+                </a>
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#"><i class="bi bi-cart3"></i> Cart</a>
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-cart3"></i> Cart</a
+                >
               </li>
               <li class="nav-item mx-4">
-                <a class="nav-link" href="#"><i class="bi bi-shop-window"></i> Become a Seller </a>
+                <a class="nav-link" href="#"
+                  ><i class="bi bi-shop-window"></i> Become a Seller
+                </a>
               </li>
-              <li class="nav-item mx-1 dropdown"></li>
+              <li class="nav-item mx-1 dropdown position-relative">
                 <a
                   class="nav-link dropdown-toggle btn dot-btn"
                   href="#"
@@ -80,47 +86,33 @@
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
-
                 >
-                <i class="bi bi-three-dots-vertical"></i>
+                  <i class="bi bi-three-dots-vertical"></i>
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item py-2" href="#"> <i class="bi bi-bell me-2 "></i> Notification Preferences</a></li>
-                  <li><a class="dropdown-item py-2" href="#"><i class="bi bi-headset me-2 "></i> 24x7 Customer Care</a></li>
-                  <li><a class="dropdown-item py-2" href="#"><i class="bi bi-graph-up me-2 "></i> Advertise</a></li>
-                  <li><a class="dropdown-item py-2" href="#"><i class="bi bi-download me-2"></i> Download App</a></li>
-                  
-                </ul>
-              </li>
-              <!-- <li class="nav-item dropdown mx-4">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
+                <ul class="dropdown-menu border-0 shadow-lg" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item py-2" href="#">
+                      <i class="bi bi-bell me-2"></i> Notification
+                      Preferences</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#"
+                      ><i class="bi bi-headset me-2"></i> 24x7 Customer Care</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#"
+                      ><i class="bi bi-graph-up me-2"></i> Advertise</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item py-2" href="#"
+                      ><i class="bi bi-download me-2"></i> Download App</a
+                    >
                   </li>
                 </ul>
-              </li> -->
-              <!-- <li class="nav-item">
-                <a
-                  class="nav-link disabled"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
-                  >Disabled</a
-                >
-              </li> -->
+              </li>
             </ul>
           </div>
         </div>

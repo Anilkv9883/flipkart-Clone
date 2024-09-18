@@ -73,17 +73,20 @@ header .dropdown-toggle::after {
   display: none;
 }
 .dropdown-menu{
-  /* width: 250px; */
   left: unset!important;
-  right: 30px!important;
-  /* font-size: 12px!important; */
+  top: 100%;
+  right: 0!important;
 }
 
 header .dot-btn:hover header .dropdown-menu{
-  display: block!important;
+  /* display: block!important; */
 }
 header .dropdown-menu a{
   font-size: 14px!important;
+}
+header ul .dropdown{
+  /* position: relative!important; */
+  border: none;
 }
 
 
