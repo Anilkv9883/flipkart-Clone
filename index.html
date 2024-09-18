@@ -32,12 +32,105 @@
 
   <body>
     <!-- header  section  -->
-    <header></header>
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light  h-100">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./images/flipkart-logo-2.svg" alt="" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex search-form rounded-3 mx-4 flex-grow-1 ">
+              <button class="btn" type="submit">
+                <i class="bi bi-search"></i>
+              </button>
+              <input
+                class="form-control me-0 search-input ps-0"
+                type="search"
+                placeholder="Search for Products, Brands and More"
+                aria-label="Search"
+              />
+             
+            </form>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item me-4">
+                <a class="btn" href=""><i class="bi bi-person-circle"></i>  Login <i class="bi bi-chevron-down"></i> </a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#"><i class="bi bi-cart3"></i> Cart</a>
+              </li>
+              <li class="nav-item mx-4">
+                <a class="nav-link" href="#"><i class="bi bi-shop-window"></i> Become a Seller </a>
+              </li>
+              <li class="nav-item mx-1 dropdown"></li>
+                <a
+                  class="nav-link dropdown-toggle btn dot-btn"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+
+                >
+                <i class="bi bi-three-dots-vertical"></i>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item py-2" href="#"> <i class="bi bi-bell me-2 "></i> Notification Preferences</a></li>
+                  <li><a class="dropdown-item py-2" href="#"><i class="bi bi-headset me-2 "></i> 24x7 Customer Care</a></li>
+                  <li><a class="dropdown-item py-2" href="#"><i class="bi bi-graph-up me-2 "></i> Advertise</a></li>
+                  <li><a class="dropdown-item py-2" href="#"><i class="bi bi-download me-2"></i> Download App</a></li>
+                  
+                </ul>
+              </li>
+              <!-- <li class="nav-item dropdown mx-4">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a
+                  class="nav-link disabled"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"
+                  >Disabled</a
+                >
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
     <main class="container-fluid">
       <!-- categories seciton  -->
       <div class="categories d-flex align-items-center">
         <div class="container">
-          <div class="row">
+          <div class="row p-5">
             <div class="col category">
               <a href="">
                 <div class="row d-flex flex-column">
@@ -279,56 +372,80 @@
                     <div class="swiper-wrapper px-4">
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-1.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-1.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Boult W20</h4>
                         <p>Up to 70% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-3.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-3.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>School Bags</h4>
                         <p>Up to 30% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-4.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-4.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Remote control Toy</h4>
                         <p>Up to 10% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-5.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-5.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Smart Lighting</h4>
                         <p>Up to 20% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-6.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-6.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Canon Printer A102</h4>
                         <p>Up to 60% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-7.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-7.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Samsing Monitor</h4>
                         <p>Up to 20% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-8.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-8.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Boult W20</h4>
                         <p>Up to 30% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-electronics-9.webp" alt="" />
+                          <img
+                            src="./images/product-electronics-9.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Livyor Chia</h4>
                         <p>Up to 15% Off</p>
@@ -363,56 +480,80 @@
                     <div class="swiper-wrapper px-4">
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-1.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-1.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Boult W20</h4>
                         <p>Up to 70% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-2.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-2.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>School Bags</h4>
                         <p>Up to 30% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-3.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-3.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Remote control Toy</h4>
                         <p>Up to 10% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-4.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-4.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Smart Lighting</h4>
                         <p>Up to 20% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-5.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-5.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Canon Printer A102</h4>
                         <p>Up to 60% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-6.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-6.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Samsing Monitor</h4>
                         <p>Up to 20% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-7.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-7.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Boult W20</h4>
                         <p>Up to 30% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-beauty-toys-8.webp" alt="" />
+                          <img
+                            src="./images/product-beauty-toys-8.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Livyor Chia</h4>
                         <p>Up to 15% Off</p>
@@ -444,56 +585,80 @@
                     <div class="swiper-wrapper px-4">
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-1.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-1.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Dry Fruit, Nut & Seed</h4>
                         <p>Up to 70% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-2.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-2.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Home Gym Combos</h4>
                         <p>Up to 30% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-3.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-3.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Cycles</h4>
                         <p>Up to 10% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-4.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-4.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Cricket Bat</h4>
                         <p>Up to 20% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-9.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-9.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Protein Supplement</h4>
                         <p>Up to 60% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-6.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-6.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Samsing Monitor</h4>
                         <p>Up to 20% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-7.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-7.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Boult W20</h4>
                         <p>Up to 30% Off</p>
                       </div>
                       <div class="swiper-slide">
                         <div class="product-img p-1 px-4">
-                          <img src="./images/product-sports-health-8.webp" alt="" />
+                          <img
+                            src="./images/product-sports-health-8.webp"
+                            alt=""
+                          />
                         </div>
                         <h4>Livyor Chia</h4>
                         <p>Up to 15% Off</p>
@@ -748,10 +913,10 @@
                 <div class="product p-2 d-flex flex-column">
                   <div class="product-img">
                     <img
-                    class="img-fluid"
-                    src="./images/product-home-decore-4.webp"
-                    alt=""
-                  />
+                      class="img-fluid"
+                      src="./images/product-home-decore-4.webp"
+                      alt=""
+                    />
                   </div>
                   <h4 class="mt-2">Blankits</h4>
                   <p class="">Min. 50% Off</p>
@@ -784,10 +949,10 @@
                 <div class="product p-2 d-flex flex-column">
                   <div class="product-img">
                     <img
-                    class="img-fluid"
-                    src="./images/product-monsoon-2.webp"
-                    alt=""
-                  />
+                      class="img-fluid"
+                      src="./images/product-monsoon-2.webp"
+                      alt=""
+                    />
                   </div>
                   <h4 class="mt-2">Women's Shrugs</h4>
                   <p class="">Min. 50% Off</p>
@@ -797,10 +962,10 @@
                 <div class="product p-2 d-flex flex-column">
                   <div class="product-img">
                     <img
-                    class="img-fluid"
-                    src="./images/product-monsoon-3.webp"
-                    alt=""
-                  />
+                      class="img-fluid"
+                      src="./images/product-monsoon-3.webp"
+                      alt=""
+                    />
                   </div>
                   <h4 class="mt-2">Mosquito Nets</h4>
                   <p class="">Min. 50% Off</p>
@@ -808,10 +973,10 @@
                 <div class="product p-2 d-flex flex-column">
                   <div class="product-img">
                     <img
-                    class="img-fluid"
-                    src="./images/product-monsoon-4.webp"
-                    alt=""
-                  />
+                      class="img-fluid"
+                      src="./images/product-monsoon-4.webp"
+                      alt=""
+                    />
                   </div>
                   <h4 class="mt-2">Men's Caps</h4>
                   <p class="">Min. 50% Off</p>
@@ -1738,7 +1903,7 @@
       <div class="container">
         <div class="row px-5 py-5">
           <div class="col-6">
-            <div class="row ">
+            <div class="row">
               <div class="col col-3 menu-heading">
                 <h3>About</h3>
                 <ul>
@@ -1780,59 +1945,58 @@
                   <li>EPR Compliance</li>
                 </ul>
               </div>
-    
-              
-              
             </div>
           </div>
-          <div class="col-6 border-start  ps-5 address-sec">
-            <div class="row ">
-
+          <div class="col-6 border-start ps-5 address-sec">
+            <div class="row">
               <div class="col col-6">
                 <h3>Mail Us:</h3>
                 <ul>
-                  <li>Flipkart Internet Private Limited, </li>
-                  <li> Buildings Alyssa, Begonia & </li>
-                  <li> Clove Embassy Tech Village, </li>
-                  <li> Outer Ring Road, Devarabeesanahalli Village, </li>
-                  <li> Bengaluru, 560103, </li>
-                  <li> Karnataka, India</li>
+                  <li>Flipkart Internet Private Limited,</li>
+                  <li>Buildings Alyssa, Begonia &</li>
+                  <li>Clove Embassy Tech Village,</li>
+                  <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+                  <li>Bengaluru, 560103,</li>
+                  <li>Karnataka, India</li>
                 </ul>
                 <h3>Social:</h3>
                 <ul class="d-flex social-icons">
                   <li><i class="bi bi-facebook mx-2"></i></li>
-                  <li><i class="bi  bi-twitter-x  mx-2"></i></li>
-                  <li><i class="bi bi-youtube  mx-2"></i></li>
+                  <li><i class="bi bi-twitter-x mx-2"></i></li>
+                  <li><i class="bi bi-youtube mx-2"></i></li>
                 </ul>
               </div>
               <div class="col col-6">
                 <h3>Registered Office Address:</h3>
                 <ul>
-                  <li>Flipkart Internet Private Limited, </li>
-                  <li> Buildings Alyssa, Begonia & </li>
-                  <li> Clove Embassy Tech Village, </li>
-                  <li> Outer Ring Road, Devarabeesanahalli Village, </li>
-                  <li> Bengaluru, 560103, </li>
-                  <li> Karnataka, India </li>
-                  <li> CIN : U51109KA2012PTC066107 </li>
-                  <li class="contact-no" > Telephone:  <span>044-45614700</span> / <span>044-67415800</span></li>
+                  <li>Flipkart Internet Private Limited,</li>
+                  <li>Buildings Alyssa, Begonia &</li>
+                  <li>Clove Embassy Tech Village,</li>
+                  <li>Outer Ring Road, Devarabeesanahalli Village,</li>
+                  <li>Bengaluru, 560103,</li>
+                  <li>Karnataka, India</li>
+                  <li>CIN : U51109KA2012PTC066107</li>
+                  <li class="contact-no">
+                    Telephone: <span>044-45614700</span> /
+                    <span>044-67415800</span>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <hr class="m-0">
+      <hr class="m-0" />
       <div class="container">
-        <div class="row px-5 py-3 footer-bottom ">
+        <div class="row px-5 py-3 footer-bottom">
           <div class="col">
             <ul class="d-flex justify-content-between align-items-center m-0">
-              <li> <i class="bi bi-shop-window me-2"></i> Become a Seller  </li>
-              <li> <i class="bi bi-star me-2"></i> Advertise </li>
-              <li> <i class="bi bi-gift me-2"></i> Gift Cards</li>
-              <li> <i class="bi bi-question-circle me-2"></i> Help Center  </li>
-              <li> © 2007- 2024 Flipkart.com</li>
-              <li>  <img src="./images/payment-method.svg" alt=""> </li>
+              <li><i class="bi bi-shop-window me-2"></i> Become a Seller</li>
+              <li><i class="bi bi-star me-2"></i> Advertise</li>
+              <li><i class="bi bi-gift me-2"></i> Gift Cards</li>
+              <li><i class="bi bi-question-circle me-2"></i> Help Center</li>
+              <li>© 2007- 2024 Flipkart.com</li>
+              <li><img src="./images/payment-method.svg" alt="" /></li>
             </ul>
           </div>
         </div>
