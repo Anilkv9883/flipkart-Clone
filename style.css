@@ -7,10 +7,10 @@ body {
   background-color: #f1f2f4;
 }
 .container {
-  max-width: 1368px;
+  /* max-width: 1368px; */
 }
 .container-fluid {
-  max-width: 1400px;
+  /* max-width: 1400px; */
 }
 .a_nav {
   /* padding: 0px 28px; */
@@ -111,6 +111,12 @@ main {
   font-size: 14px;
   font-weight: 700;
 }
+.categories .cat-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* banner slider  */
 /* banner slider section  */
